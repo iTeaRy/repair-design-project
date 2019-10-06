@@ -1,0 +1,23 @@
+@import 'abstracts/colors';
+
+.header {
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: green;
+  align-items: center;
+  &__navigation {
+    height: 83px;
+    background-color: $red;
+    @media screen and (max-width: 375px) {
+      display: none;
+    }
+  }
+  &__logotype {
+
+  }
+  @media screen and (max-width: 375px) {
+    width: 375px;
+  }
+}

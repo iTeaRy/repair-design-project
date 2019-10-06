@@ -1,0 +1,337 @@
+.creating-application {
+  display: flex;
+  &__instagram {
+    background-color: blue;
+    width: 82px;
+    height: 707px;
+    @media screen and (max-width: 375px) {
+      display: none;
+    }
+  }
+  &__content {
+    display: inline-block;
+    width: 100%;
+    height: 707px;
+    background-color: yellow;
+    @media screen and (max-width: 375px) {
+      height: 476px;
+    }
+  }
+  &__scroll {
+    width: 247px;
+    height: 97px;
+    position: absolute;
+    background-color: gray;
+    align-self: flex-end;
+    @media screen and (max-width: 375px) {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    width: 375px;
+  }
+}
+
+.completed-projects {
+  width: 100%;
+  height: 1074px;
+  display: flex;
+  flex-direction: row;
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: 375px) {
+      height: 700px;
+      justify-content: space-between;
+    }
+
+    &-text {
+      height: 220px;
+      width: 442px;
+      background-color: orange;
+      margin: 176px 50px 0 101px;
+      @media screen and (max-width: 375px) {
+        width: 375px;
+        height: 245px;
+        margin: 0;
+      }
+    }
+    &-list {
+      height: 170px;
+      width: 442px;
+      background-color: pink;
+      margin: 0 50px 0 101px;
+      @media screen and (max-width: 375px) {
+        width: 375px;
+        height: 245px;
+        margin: 0;
+      }
+    }
+    &-controls {
+      height: 93px;
+      width:252px;
+      background-color: orange;
+      margin-left: 102px;
+      @media screen and (max-width: 375px) {
+      display: none;
+      }
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    &-navigation {
+      height: 24px;
+      width:623px;
+      background-color: gray;
+      margin-top: 107px;
+      margin-bottom: 45px;
+      @media screen and (max-width: 375px) {
+        display: none;
+      }
+    }
+
+    &-image {
+      height: 482px;
+      width:100%;
+      background-color: green;
+      @media screen and (max-width: 375px) {
+        width: 340px;
+        height: 241px;
+        position: absolute;
+        left: 0;
+        margin-top: 245px;
+        margin-left: 17.5px;
+      }
+    }
+  }
+  @media screen and (max-width: 375px) {
+    width: 375px;
+    height: 700px;
+  }
+}
+
+.offline-control {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 1440px;
+  align-items: center;
+  justify-content: space-between;;
+  background-color: blueviolet;
+
+  &__caption {
+    height: 67px;
+    width: 196px;
+    background-color: blue;
+    margin-top: -325px;
+  }
+  &__video {
+    height: 434px;
+    width: 817px;
+    background-color: red;
+  }
+  &__description {
+    height: 131px;
+    width: 681px;
+    background-color: pink;
+  }
+  &__input {
+    height:51px;
+    width: 769px;
+    background-color: yellow;
+    margin-bottom: 122px;
+  }
+}
+
+.repairs-type {
+  height: 861px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+  &__caption {
+    height:67px;
+    width: 257px;
+    background-color: darkmagenta;
+  }
+
+  &__content {
+    height:608px;
+    width:1236px;
+    background-color: gray;
+  }
+}
+.consultation {
+  height: 988px;
+  width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  &__list {
+    height: 728px;
+    width: 818px;
+    background-color: yellow;
+  }
+
+  &__request {
+    height: 618px;
+    width: 509px;
+    background-color: blue;
+    margin-right: 99px;
+    margin-left: auto;
+    margin-top: 107px;
+    display: flex;
+    align-items: flex-end;
+    &-discount {
+      height: 72px;
+      width: 441px;
+      background-color: green;
+    }
+  }
+}
+.fashion {
+  height: 864px;
+  width: 1440px;
+  display: flex;
+  background-color: pink;
+  justify-content: space-around;
+  align-items: center;
+  &__list {
+    height: 516px;
+    width: 299px;
+    background-color: yellow;
+    &-caption {
+      height: 66px;
+      width: 411px;
+      background-color: gray;
+    }
+  }
+  &__images {
+    width: 753px;
+    height: 1019px;
+    background-color: orange;
+  }
+}
+.design-project {
+  width: 1440px;
+  height: 620px;
+  background-color: green;
+  &__caption {
+
+    height: 163px;
+    margin-top: 149px;
+    background-color: red;
+    margin-bottom: 41px;
+  }
+  &__choice {
+    display: flex;
+    justify-content: space-evenly;
+    &-content {
+      img {
+        width: 421px;
+        height: 392px;
+        background-color: black;
+      }
+    }
+    &-button {
+      width: 228px;
+      height: 54px;
+      background-color: orange;
+    }
+    &-mini {
+      width: 330px;
+      height: 203px;
+      background-color: pink;
+    }
+    &-standart {
+      width: 330px;
+      height: 284px;
+      background-color: pink;
+    }
+    &-full {
+      width: 330px;
+      height: 412px;
+      background-color: pink;
+    }
+  }
+}
+.goal-steps {
+  width: 1440px;
+  height: 1115px;
+  background-color: gray;
+
+}
+.our-team {
+  width: 1440px;
+  height: 1115px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  &__persons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  &__person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-icon {
+      width:70px;
+      height: 70px;
+      position: absolute;
+      margin: -35px 0 0 -135px;
+      background-color: white;
+    }
+    &-foto {
+      width:272px;
+      height: 357px;
+      background-color: orange;
+    }
+    &-description {
+      width:233px;
+      height: 137px;
+      position: absolute;
+      margin-top: 270px;
+      background-color: pink;
+    }
+  }
+  &__caption {
+    &-top {
+      width:476px;
+      height: 148px;
+      background-color: green;
+      align-self: center;
+    }
+    &-botton {
+      width:558px;
+      height: 136px;
+      background-color: green;
+      align-self: center;
+    }
+  }
+}
+.our-clients {
+  width: 1440px;
+  height: 892px;
+  background-color: orange;
+}
+.questions {
+  width: 883px;
+  height: 445px;
+  background-color: pink;
+  margin: 0 auto;
+}
+.position {
+  width: 1440px;
+  height: 730px;
+  background-color: green;
+}
