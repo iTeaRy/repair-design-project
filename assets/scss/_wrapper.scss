@@ -1,6 +1,12 @@
 @import 'abstracts/colors';
-
+body {
+  background-color: $black;
+}
 .wrapper {
   width: 1440px;
   background-color: $black;
+  @media screen and (max-width: 1439px) {
+    width: 100%;
+  }
+  
 }

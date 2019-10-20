@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'FuturaDemiC';
+  src: local('FuturaDemiC'), url('https://nomail.com.ua/files/woff/3cab95612c8bcdace488cb032c9a734b.woff') format('woff');
+ }
+$main-font: 'FuturaDemiC';
+
+@font-face {
+  font-family: 'FuturaBookC';
+  src: local('FuturaBookC'), url('https://nomail.com.ua/files/woff/a077cede55badabb88b7f3dc06a64264.woff') format('woff');
+}
+$text-font: 'FuturaBookC';
+
+@font-face {
+  font-family: 'YesevaOne';
+  src: local('YesevaOne'), url('https://nomail.com.ua/files/woff/e409213baa0e067f4f8bc8e7e70f360e.woff') format('woff');
+}
+$caption-font: 'YesevaOne';
+
+@font-face {
+  font-family: 'FuturaMediumC';
+  src: local('FuturaMediumC'), url('https://nomail.com.ua/files/woff/047c56cc37e017c6be47821ec5cac9de.woff') format('woff');
+}
+$list-font: 'FuturaMediumC';
